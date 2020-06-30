@@ -20,8 +20,8 @@ Add the layout that you want to split in the custom frame.
     </ImageView>
 </com.samnetworks.alternateswipe.CustomShatterFrame>
 ```
-And call CustomShatterFrame.advance() method to start the shatter animation.<br>
-<b> transformer used for the sample above</b>
+And call CustomShatterFrame.advance() method to start the shatter animation.<br><br>
+<b> Transformer used for the sample above:</b>
 ```
     override fun transformPage(page: View, position: Float) {
         if (position >= 0) {
